@@ -1,0 +1,9 @@
+variable "name" { type = string }
+variable "oidc_provider_arn" { type = string }
+variable "github_owner" { type = string }
+variable "github_owner_id" { type = string }
+variable "github_repo" { type = string }
+variable "github_repo_id" { type = string }
+variable "ecr_repository_arn" { type = string }
+variable "ecs_cluster_name" { type = string }
+variable "ecs_service_name" { type = string }
